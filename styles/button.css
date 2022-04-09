@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    width: 300px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+button.current {
+    box-shadow: 0 0 0 2px whitesmoke,
+    0 0 0 4px black
+}
